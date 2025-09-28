@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.voltar-pagina{
+    text-decoration: none;
+    color: black;
+    background-color: blue;
+}
