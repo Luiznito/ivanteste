@@ -601,6 +601,22 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+.cotta a{
+  text-decoration: none;
+  color: #a88825;
+  background-color: white;
+  border: 2px solid#a88825;
+  padding: 10px 37%;
+}
+.cotta a:hover{
+  background-color: #a88825;
+  color: white;
+  transition: all 0.5s;
+}
+.cotta{
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 
 @media(max-width: 1000px){
@@ -671,7 +687,7 @@ body {
   padding-top: 90px;
 }
 .log {
-  margin: auto auto;
+  margin: auto auto;  
 }
 .end{
   padding: 0;
@@ -729,8 +745,15 @@ body {
 .material-symbols-outlined:hover{
   cursor: pointer;
 }
+.cotta a{
+  text-decoration: none;
+  color: #a88825;
+  background-color: white;
+  border: 2px solid#a88825;
+  padding: 10px 33%;
 }
 
+}
 
 
 
