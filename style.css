@@ -758,6 +758,62 @@ background: radial-gradient(circle,rgba(0, 108, 117, 1) 0%, rgba(0, 32, 36, 1) 1
 
 }
 
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  height: 35px;
+  padding: 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 18px;
+  background: #fafafa;
+  box-sizing: border-box;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #999;
+  background: #fff;
+}
+
+textarea {
+  min-height: 0px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #333;
+}
+#msgf{
+  height: 150px;
+}
 
 
 
@@ -768,3 +824,4 @@ background: radial-gradient(circle,rgba(0, 108, 117, 1) 0%, rgba(0, 32, 36, 1) 1
 
 
  
+
